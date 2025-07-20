@@ -15,13 +15,6 @@ resource "azurerm_resource_group" "example" {
   name     = "maneeshnew225678"
   location = "Westus"
 }
-resource "azurerm_storage_account" "maneesh876"   {
-  name                     = "stgmaneesh8722"
-  resource_group_name      = azurerm_resource_group.example.name
-  location                 = "Westus"
-  account_tier             = "Standard"
-  public_network_access_enabled = false
-  account_replication_type = "LRS"
-}
+
 
 

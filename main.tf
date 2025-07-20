@@ -11,8 +11,8 @@ provider "azurerm" {
   subscription_id = "c316f505-7597-4175-b5db-d2949009d506"
 }
 
-resource "azurerm_resource_group" "example" {
-  name     = "maneeshnew225678"
+resource "azurerm_resource_group" "example56" {
+  name     = "maneeshnew22567845"
   location = "Westus"
 }
 

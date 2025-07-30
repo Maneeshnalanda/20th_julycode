@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example56" {
-  name     = "maneeshnew22567845"
+  name     = "maneeshnew225678489"
   location = "Westus"
 }
 
